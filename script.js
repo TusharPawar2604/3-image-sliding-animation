@@ -1,0 +1,18 @@
+gsap.to(".imagecontainer",{
+    width:"100%",
+    duration:1.5,
+    ease:Expo.easeInOut,
+    stagger:2,
+})
+gsap.to("h1",{
+    top:0,
+    ease:Expo.easeInOut,    
+    duration:1.5,
+    stagger:2
+})
+gsap.to("h1",{
+    top:"-100%",
+    delay:2,
+    stagger:2,
+    ease:Expo.easeInOut,    
+})
